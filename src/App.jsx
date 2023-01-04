@@ -3,7 +3,6 @@ import Info from "./Pages/Info.jsx";
 import Plan from "./Pages/Plan.jsx";
 import Addons from "./Pages/Addons.jsx";
 import Summary from "./Pages/Summary.jsx";
-import Header from "./Components/Header.jsx";
 import Thanks from "./Pages/Thanks.jsx";
 
 function App() {
