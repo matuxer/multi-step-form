@@ -217,7 +217,7 @@ function Addons() {
           </div>
 
           <div className="w-full bg-alabaster">
-            <div className="container mx-auto flex justify-between items-cente w-full py-4 ">
+            <div className="container mx-auto flex justify-between items-cente w-full py-4 px-3 sm:px-0">
               <Link to="/plan">
                 <button className="font-ubuntu text-coolGray text-sm py-[10px] rounded-[4px] hover:text-marineBlue-1">
                   Go back

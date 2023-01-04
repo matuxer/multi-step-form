@@ -44,7 +44,7 @@ function Info() {
     <div className="flex h-screen md:justify-center md:items-center md:w-full md:py-10">
       <div className="flex flex-col justify-between w-full md:flex-row  md:items-start md:bg-white md:p-4 md:pr-0 md:rounded-xl md:w-3/4 md:h-full">
         <Header />
-        <div className="flex flex-col justify-between h-full md:px-20  md:w-4/6 ">
+        <div className="flex flex-col justify-between items-center h-full md:px-20  md:w-4/6 ">
           {/* Form */}
           <div className="container mx-auto pt-[120px] md:pt-9">
             <div className="bg-white px-7 pt-9 pb-7 rounded-lg drop-shadow-md md:drop-shadow-none md:space-y-5 md:p-0">
@@ -136,7 +136,7 @@ function Info() {
           </div>
           {/* Next Step Button */}
           <div className="w-full bg-alabaster md:bg-white">
-            <div className="container mx-auto flex justify-end items-cente w-full py-4 ">
+            <div className="container mx-auto flex justify-end items-cente w-full py-4 px-3 sm:px-0">
               <Link to="/plan">
                 <button
                   disabled={Object.keys(error).length > 0}
